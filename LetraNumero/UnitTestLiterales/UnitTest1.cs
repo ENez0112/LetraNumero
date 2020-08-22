@@ -11,7 +11,7 @@ namespace UnitTestLiterales
         {
             //Arrange
             int a = 5;
-            string esperado = "CINCO PESOS 00 /100";
+            string esperado = "CINCO";
             //ACT
             LiteralController literalController = new LiteralController();
             string resultado = literalController.LiteralGet(a);
@@ -23,7 +23,7 @@ namespace UnitTestLiterales
         {
             //Arrange
             int a = 15;
-            string esperado = "QUINCE PESOS 00 /100";
+            string esperado = "QUINCE";
             //ACT
             LiteralController literalController = new LiteralController();
             string resultado = literalController.LiteralGet(a);
@@ -35,7 +35,7 @@ namespace UnitTestLiterales
         {
             //Arrange
             int a = 150;
-            string esperado = "CIENTO CINCUENTA PESOS 00 /100";
+            string esperado = "CIENTO CINCUENTA";
             //ACT
             LiteralController literalController = new LiteralController();
             string resultado = literalController.LiteralGet(a);
@@ -47,7 +47,7 @@ namespace UnitTestLiterales
         {
             //Arrange
             int a = 1500;
-            string esperado = "MIL QUINIENTOS PESOS 00 /100";
+            string esperado = "MIL QUINIENTOS";
             //ACT
             LiteralController literalController = new LiteralController();
             string resultado = literalController.LiteralGet(a);
